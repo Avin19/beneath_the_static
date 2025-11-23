@@ -1,18 +1,20 @@
-using System.Collections;
-using System.Collections.Generic;
+// MenuManager.cs
 using UnityEngine;
-
-public class MainMenu : MonoBehaviour
+using UnityEngine.UI;
+using UnityEngine.SceneManagement;
+public class MenuManager : MonoBehaviour
 {
-    // Start is called before the first frame update
+    [SerializeField] private Button playButton;
+
     void Start()
     {
-        
+        playButton.onClick.AddListener(OnPlayClicked);
+        // or use playButton.SetOnClick(() => OnPlayClicked());
     }
 
-    // Update is called once per frame
-    void Update()
+    void OnPlayClicked()
     {
-        
+        Debug.Log("Play pressed — load Level Select");
+        SceneManager.LoadScene(1);
     }
 }
