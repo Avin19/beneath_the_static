@@ -1,0 +1,318 @@
+{
+  "meta": {
+    "game": "Beneath the Static",
+    "description": "Pulse pattern library for levels 1-12. dot=short pulse, dash=long pulse. Timing units in ms.",
+    "units": {
+      "dot_ms": 200,
+      "dash_ms": 600,
+      "inter_element_gap_ms": 200,
+      "inter_pattern_gap_ms": 800,
+      "recommended_input_window_ms": 250
+    }
+  },
+  "levels": [
+    {
+      "level": 1,
+      "name": "First Contact",
+      "pattern_symbols": [
+        "dot",
+        "dash"
+      ],
+      "pattern_timing_ms_sequence": [
+        200,
+        200,
+        600
+      ],
+      "notes": "Clean 1-1 pattern (\u2022 \u2014)",
+      "example_image": "/mnt/data/A_digital_vector_graphic_features_two_black_symbol.png"
+    },
+    {
+      "level": 2,
+      "name": "Stabilizing",
+      "pattern_symbols": [
+        "dot",
+        "dash",
+        "dash"
+      ],
+      "pattern_timing_ms_sequence": [
+        200,
+        200,
+        600,
+        200,
+        600
+      ],
+      "notes": "1-2 (\u2022 \u2014 \u2014)",
+      "example_image": null
+    },
+    {
+      "level": 3,
+      "name": "Distortion",
+      "pattern_symbols": [
+        "dot",
+        "dash",
+        "dot",
+        "dash"
+      ],
+      "pattern_timing_ms_sequence": [
+        200,
+        200,
+        600,
+        200,
+        200,
+        200,
+        600
+      ],
+      "notes": "1-1-2 variant",
+      "example_image": null
+    },
+    {
+      "level": 4,
+      "name": "Memory Fragment",
+      "pattern_symbols": [
+        "dash",
+        "dot",
+        "dash"
+      ],
+      "pattern_timing_ms_sequence": [
+        600,
+        200,
+        200,
+        200,
+        600
+      ],
+      "notes": "2-1-2 (- \u2022 -)",
+      "example_image": null
+    },
+    {
+      "level": 5,
+      "name": "Overlap",
+      "pattern_symbols": [
+        "dot",
+        "dash",
+        "dot",
+        "dot",
+        "dash"
+      ],
+      "pattern_timing_ms_sequence": [
+        200,
+        200,
+        600,
+        200,
+        200,
+        200,
+        200,
+        200,
+        600
+      ],
+      "notes": "irregular sync \u2014 adds short double dots",
+      "example_image": null
+    },
+    {
+      "level": 6,
+      "name": "Lost Time",
+      "pattern_symbols": [
+        "dash",
+        "dash",
+        "dash",
+        "dot",
+        "dash",
+        "dash",
+        "dash"
+      ],
+      "pattern_timing_ms_sequence": [
+        600,
+        200,
+        600,
+        200,
+        600,
+        200,
+        200,
+        200,
+        600,
+        200,
+        600,
+        200,
+        600
+      ],
+      "notes": "3-1-3 long pattern",
+      "example_image": null
+    },
+    {
+      "level": 7,
+      "name": "Warning",
+      "pattern_symbols": [
+        "dash",
+        "dash",
+        "dash",
+        "dash"
+      ],
+      "pattern_timing_ms_sequence": [
+        600,
+        200,
+        600,
+        200,
+        600,
+        200,
+        600
+      ],
+      "notes": "steady heavy pulses (4 long)",
+      "example_image": null
+    },
+    {
+      "level": 8,
+      "name": "Interference",
+      "pattern_symbols": [
+        "dot",
+        "dash",
+        "dot",
+        "dot",
+        "dash",
+        "glitch"
+      ],
+      "pattern_timing_ms_sequence": [
+        200,
+        200,
+        600,
+        200,
+        200,
+        200,
+        200,
+        200,
+        600,
+        200,
+        -1
+      ],
+      "notes": "includes a 'glitch' element that forces random offset",
+      "example_image": null
+    },
+    {
+      "level": 9,
+      "name": "Echo Weakens",
+      "pattern_symbols": [
+        "dot",
+        "dot",
+        "dash",
+        "dash",
+        "dash"
+      ],
+      "pattern_timing_ms_sequence": [
+        200,
+        200,
+        200,
+        200,
+        600,
+        200,
+        600,
+        200,
+        600
+      ],
+      "notes": "2-2-5 style (increasing tail)",
+      "example_image": null
+    },
+    {
+      "level": 10,
+      "name": "The Truth",
+      "pattern_symbols": [
+        "dash",
+        "dash",
+        "dash",
+        "dash",
+        "dash",
+        "dot",
+        "dash",
+        "dash",
+        "dash",
+        "dash",
+        "dash"
+      ],
+      "pattern_timing_ms_sequence": [
+        600,
+        200,
+        600,
+        200,
+        600,
+        200,
+        600,
+        200,
+        600,
+        200,
+        200,
+        200,
+        600,
+        200,
+        600,
+        200,
+        600,
+        200,
+        600,
+        200,
+        600
+      ],
+      "notes": "5-1-5 symmetric",
+      "example_image": null
+    },
+    {
+      "level": 11,
+      "name": "Collapse Sequence",
+      "pattern_symbols": [
+        "dot",
+        "dash",
+        "dot",
+        "dash",
+        "dot",
+        "dash",
+        "dash",
+        "dash"
+      ],
+      "pattern_timing_ms_sequence": [
+        200,
+        200,
+        600,
+        200,
+        200,
+        200,
+        600,
+        200,
+        200,
+        200,
+        600,
+        200,
+        600,
+        200,
+        600
+      ],
+      "notes": "escalating fast sequence; shorter gaps expected",
+      "example_image": null
+    },
+    {
+      "level": 12,
+      "name": "Final Broadcast",
+      "pattern_symbols": [
+        "dot",
+        "dash",
+        "dot",
+        "dash",
+        "dash",
+        "dot",
+        "dash"
+      ],
+      "pattern_timing_ms_sequence": [
+        200,
+        200,
+        600,
+        200,
+        200,
+        200,
+        600,
+        200,
+        600,
+        200,
+        200,
+        200,
+        600
+      ],
+      "notes": "final mixed pattern; high precision required",
+      "example_image": null
+    }
+  ]
+}
